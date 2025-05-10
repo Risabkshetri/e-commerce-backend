@@ -37,7 +37,7 @@ async function main() {
 // Middleware setup 
 server.use(express.json());
 server.use(cors({
-  origin: ['http://localhost:3000', 'http://frontend:3000', 'https://ecommerce-web-theta-lake.vercel.app'],
+  origin: ['http://localhost:3000', 'http://frontend:3000'],
   credentials: true
 }));
 
